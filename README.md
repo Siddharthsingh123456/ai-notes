@@ -1,10 +1,1 @@
-# AI Notes
-
-Capture ideas, organize knowledge and transform notes with AI.
-
-MERN + AI application using React, Express, MongoDB/Mongoose, OpenAI and Vercel.
-
-## Setup
-npm install && npm run dev
-
-Configure OPENAI_API_KEY and optionally MONGODB_URI. Never commit secrets.
+# AI Notes\n\nA MERN + AI knowledge workspace for capturing, searching and refining notes.\n\n## Features\n- Fast note creation and local editing\n- Searchable note list\n- AI Summarize, Improve and Tasks actions\n- MongoDB/Mongoose persistence layer\n- Responsive premium knowledge-workspace UI\n- Node 24 + Vercel ready\n\n## Environment\nOPENAI_API_KEY=\nOPENAI_MODEL=gpt-4o-mini\nMONGODB_URI=\n\nImport into Vercel, add variables and deploy.

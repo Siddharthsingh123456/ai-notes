@@ -67,3 +67,13 @@ body:after{background:linear-gradient(90deg,transparent 0 8%,#ff6b4a18 8.1% 8.3%
 .fields input,.fields textarea,.fields select{border:1px solid #e7b95b33!important;border-radius:3px!important;background:#0c0905!important;color:#f4e6c2!important}
 .fields textarea{min-height:350px!important}.result pre{font-family:"Work Sans"!important;color:#eadfca!important;font-size:12px!important;line-height:1.95!important}
 .primary{background:#e7b95b!important;color:#261806!important;border-radius:3px!important}
+
+
+/* FINAL SYSTEM — NOTES / PAPER CTA + FORMS + FOOTER */
+button.primary{border:1px solid #f4d78b!important;border-radius:3px!important;background:#e7b95b!important;color:#2a1a08!important;font:800 10px "Work Sans"!important;box-shadow:5px 5px 0 #70451c!important;transition:.2s!important}
+button.primary:hover{transform:translate(-2px,-2px)!important;box-shadow:7px 7px 0 #70451c!important;background:#f2cf77!important}
+input,textarea,select{border:1px solid #e7b95b36!important;border-radius:3px!important;background:#100c06!important;color:#f3e5c2!important;font-family:"Work Sans"!important;box-shadow:inset 0 1px #fff2!important}
+input:focus,textarea:focus,select:focus{outline:none!important;border-color:#e7b95b!important;box-shadow:0 0 0 3px #e7b95b12!important}
+.passwordField{display:flex!important;gap:6px!important}.passwordToggle{border:1px solid #e7b95b3d!important;border-radius:2px!important;background:#211707!important;color:#e7b95b!important}
+footer{margin:70px 0 0!important;padding:30px 8px 12px!important;display:grid!important;grid-template-columns:1fr auto!important;gap:9px 30px!important;border-top:2px solid #e7b95b3d!important;background:repeating-linear-gradient(0deg,transparent 0 29px,#e7b95b07 29px 30px)!important}
+footer b{font:700 25px "Fraunces"!important;color:#f0d38c!important;grid-row:span 2!important}footer span{font:500 8px "Work Sans"!important;color:#a88e62!important;text-align:right!important}

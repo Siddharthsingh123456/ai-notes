@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap');
-500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;min-height:100vh;font-family:Inter,system-ui,sans-serif;line-height:1.55;overflow-x:hidden;background:#090807;color:#f4f7ff}
 body:before{content:"";position:fixed;inset:-20%;z-index:-5;pointer-events:none;background:radial-gradient(circle at 15% 20%,#ffe08a30,transparent 23%),radial-gradient(circle at 84% 20%,#ff9b5230,transparent 24%),radial-gradient(circle at 50% 90%,#ffcf6920,transparent 27%);filter:blur(25px);animation:drift 18s ease-in-out infinite alternate}

@@ -47,3 +47,11 @@ body:after{background:linear-gradient(90deg,transparent 0 8%,#ff6b4a18 8.1% 8.3%
 .nav nav button:hover{background:#e7b95b14!important;color:#ffe5a7!important}
 .primary{border-radius:3px!important;background:#e7b95b!important;color:#271706!important;box-shadow:4px 4px 0 #70451c!important}
 
+
+
+/* NAV FINAL — NOTES: paper bookmark tabs */
+.nav nav{display:flex!important;gap:0!important;padding:0!important;border:0!important;background:transparent!important}
+.nav nav button{position:relative!important;padding:13px 17px 11px!important;border:0!important;border-left:1px solid #e7b95b25!important;border-radius:0!important;background:transparent!important;font-family:"Work Sans"!important;color:#bcae92!important}
+.nav nav button:first-child{border-left:0}
+.nav nav button:hover{background:#e7b95b12!important;color:#ffe4a0!important;transform:none!important}
+.nav nav button:nth-child(2):after{content:"";position:absolute;bottom:0;left:15px;right:15px;height:2px;background:#e7b95b;opacity:.35}

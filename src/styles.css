@@ -55,3 +55,15 @@ body:after{background:linear-gradient(90deg,transparent 0 8%,#ff6b4a18 8.1% 8.3%
 .nav nav button:first-child{border-left:0}
 .nav nav button:hover{background:#e7b95b12!important;color:#ffe4a0!important;transform:none!important}
 .nav nav button:nth-child(2):after{content:"";position:absolute;bottom:0;left:15px;right:15px;height:2px;background:#e7b95b;opacity:.35}
+
+
+/* POST-LOGIN V4 — NOTES DESK */
+.workspace{min-height:calc(100vh - 74px);padding:34px clamp(16px,4vw,58px) 80px;background:#151006}
+.workspaceHead{max-width:1320px!important;padding:20px 24px!important;border:1px solid #e7b95b3b!important;border-radius:4px!important;background:#1d1509!important;box-shadow:6px 8px 35px #0008!important}
+.workspaceHead h1{font-family:"Fraunces"!important;font-size:45px!important}.workspaceHead p{color:#c6aa79!important}
+.workGrid{max-width:1320px!important;grid-template-columns:.9fr 1.1fr!important;gap:24px!important}
+.tool,.result{border:1px solid #e7b95b3d!important;border-radius:4px!important;background:#f0d78a0a!important;box-shadow:6px 9px 30px #0008!important}
+.tool{padding:28px!important}.tool h2{font-family:"Fraunces"!important;font-size:30px!important;color:#f3d99b!important}
+.fields input,.fields textarea,.fields select{border:1px solid #e7b95b33!important;border-radius:3px!important;background:#0c0905!important;color:#f4e6c2!important}
+.fields textarea{min-height:350px!important}.result pre{font-family:"Work Sans"!important;color:#eadfca!important;font-size:12px!important;line-height:1.95!important}
+.primary{background:#e7b95b!important;color:#261806!important;border-radius:3px!important}
